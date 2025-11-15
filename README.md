@@ -18,6 +18,7 @@ https://techbookfest.org/product/gQyMySu4Wg3ARh4vRMThmK?productVariantID=qDntKia
 - WiFi, BLE, ESP-NOWなど無線機能が利用可能
 - 電源 : 単3型電池 2本 （充電池・乾電池）
 
+
 ## ファイル
 
 - boot.py
@@ -25,16 +26,23 @@ https://techbookfest.org/product/gQyMySu4Wg3ARh4vRMThmK?productVariantID=qDntKia
 - main.py
     - ポケコン起動時にテキストエディタを呼び出します。
 - editor.py
-    - テキストエディタアプリ本体
+    - テキストエディタアプリ本体です。
 - files.py
-    - 簡易ファイルブラウザ本体
+    - 簡易ファイルブラウザ本体です。
 - examples/
-    - MicroPythonのサンプルプログラム
+    - MicroPythonのサンプルプログラムです。
 - submcu_ch32v203/
     - I/Oを担当するサブMCU CH32V203C8T6 のファームウェアです。
+- PX-32 Schematic.pdf
+    - 本機の回路図です。
 
 
 ## メインMCUのMicroPythonファームウェア
 
 https://micropython.org/download/ESP32_GENERIC_S3/ を参照してください。
+
+
+## License
+
+MIT License (C) 2025 Mitsumine Suzu
 
